@@ -1,8 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 
-
-bot.login('NDMwODU4NjEyMzYyMTgyNjU5.Da7RkA.NeBWaeMdWafU7e2gHXbTYSBSsXU');
 bot.on('ready', function() {
     bot.user.setUsername("Provas");
 })
