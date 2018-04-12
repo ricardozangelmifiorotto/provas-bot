@@ -22,10 +22,17 @@ bot.on('message', message => {
 
 bot.on('message', message => {
             if (message.content.startsWith("!ajuda1")) {
-                message.channel.send("'!provas' para ver as provas, '!drive' para ver o link do drive")
+                message.channel.send("'!provas' para ver as provas, '!drive' para ver o link do drive, '!aulas' para ver as aulas")
                     
             }  
             });
+bot.on('message', message => {
+    if (message.content.startsWith("!aulas")) {
+        message.channel.send("3 provas marcadas.", {files: ["https://i.imgur.com/kseGiVI.png"]})
+        
+    }  
+    });
+
         
 // THIS MUST BE THIS WAY
 bot.login(process.env.BOT_TOKEN);
