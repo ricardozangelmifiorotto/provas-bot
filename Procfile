@@ -1,1 +1,1 @@
- worker: node bot.js Provas
+ worker: node bot.js provas-bot
