@@ -28,7 +28,7 @@ bot.on('message', message => {
             });
 bot.on('message', message => {
     if (message.content.startsWith("!aulas")) {
-        message.channel.send("3 provas marcadas.", {files: ["https://i.imgur.com/kseGiVI.png"]})
+        message.channel.send("Essa sao suas aulas.", {files: ["https://i.imgur.com/kseGiVI.png"]})
         
     }  
     });
