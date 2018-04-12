@@ -2,7 +2,7 @@
 "name": "Provas",
 "description": "Provas",
 "version": "0.0.0",
-"main": "bot.js", "Provas"
+"main": "bot.js", "Provas",
  "scripts": {
   "start": "node bot.js"
   },
