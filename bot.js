@@ -2,7 +2,6 @@ const Discord = require('discord.js')
 const bot = new Discord.Client();
 
 bot.on('ready', function() {
-    bot.User.setGame('!ajuda1 for help');
     bot.user.setUsername("Provas");
 })
 
