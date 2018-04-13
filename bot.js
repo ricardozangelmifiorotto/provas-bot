@@ -1,9 +1,8 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 
-
+bot.on('ready', () => { bot.user.setGame('Pensando na vida') })
 bot.on('ready', function() {
-    bot.user.setGame('Pensando na vida');
     bot.user.setUsername("Provas");
 })
 
