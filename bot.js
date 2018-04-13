@@ -2,8 +2,6 @@ const Discord = require('discord.js')
 const bot = new Discord.Client();
 
 
-bot.user.setPresence({ activity: { name: 'with discord.js' }, status: 'idle' });
-
 bot.on('ready', function() {
     bot.user.setUsername("Provas");
 })
