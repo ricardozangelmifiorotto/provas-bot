@@ -2,8 +2,8 @@ const Discord = require('discord.js')
 const bot = new Discord.Client();
 
 bot.on('ready', function() {
-    bot.user.setGame('GAME HERE')
-    bot.user.setUsername("Provas1");
+    bot.user.setGame('Call of Duty')
+    bot.user.setUsername("Provas");
 })
 
 bot.on('message', message => {
