@@ -7,7 +7,7 @@ bot.on('ready', function() {
 })
 
 bot.on('ready', function() {
-    bot.setStatus(online, FIAP, callback);
+    bot.setStatus(online, FIAP)
 })
 
 bot.on('message', message => {
