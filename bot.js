@@ -5,6 +5,8 @@ const bot = new Discord.Client();
 bot.on('ready', function() {
     bot.user.setUsername("Provas");
 })
+bot.user.setGame('Jogando Ajuda')
+     }
 
 bot.on('message', message => {
     if (message.content.startsWith("!provas")) {
