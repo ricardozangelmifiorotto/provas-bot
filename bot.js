@@ -7,7 +7,7 @@ bot.on('ready', function() {
 })
 
 bot.on('ready', function() {
-    bot.setPlayingGame("FIAP");
+    bot.user.setPlayingGame("FIAP");
 })
 
 bot.on('message', message => {
