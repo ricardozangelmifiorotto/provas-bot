@@ -6,10 +6,6 @@ bot.on('ready', function() {
     bot.user.setUsername("Provas");
 })
 
-bot.on('ready', function() {
-    bot.user.setPlayingGame("FIAP");
-})
-
 bot.on('message', message => {
     if (message.content.startsWith("!provas")) {
         message.channel.send("4 provas marcadas.", {files: ["https://i.imgur.com/RdH269v.png"]})
