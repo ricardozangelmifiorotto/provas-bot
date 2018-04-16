@@ -33,6 +33,21 @@ bot.on('message', message => {
         
     }  
     });
+bot.on('message', message => {
+    if (message.content.startsWith("!aulas")) {
+        message.channel.send("Essa sao suas aulas.", {files: ["https://i.imgur.com/kseGiVI.png"]})
+        
+    }  
+    });
+
+bot.on('message', message => {
+        if (message.content.startsWith("!calendario")) {
+            message.channel.send("https://www2.fiap.com.br/Updown/upload_fiap/CalendarioEscolarGraduacao/Calendario_Academico_2018_1_Semestre.pdf")
+                
+        }  
+        });
+
+
 
         
 // THIS MUST BE THIS WAY
