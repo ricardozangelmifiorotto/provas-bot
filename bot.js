@@ -23,7 +23,7 @@ bot.on('message', message => {
 
 bot.on('message', message => {
             if (message.content.startsWith("!ajuda1")) {
-                message.channel.send("'!provas' para ver as provas, '!drive' para ver o link do drive, '!aulas' para ver as aulas")
+                message.channel.send("'!provas' para ver as provas, '!drive' para ver o link do drive, '!aulas' para ver as aulas, '!calendario' para ver o calendario,'!am' dia da prova am")
                     
             }  
             });
@@ -46,7 +46,13 @@ bot.on('message', message => {
         }  
         });
 
-
+bot.on('message', message => {
+        if (message.content.startsWith("!am")) {
+            message.channel.send("Dia 17 de Maio")
+                
+        }  
+        });
+    
 
         
 // THIS MUST BE THIS WAY
