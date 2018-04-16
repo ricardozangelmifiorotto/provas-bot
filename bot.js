@@ -42,7 +42,6 @@ bot.on('message', message => {
 
 bot.on('message', message => {
         if (message.content.startsWith("!calendario")) {
-            /*message.channel.send("https://www2.fiap.com.br/Updown/upload_fiap/CalendarioEscolarGraduacao/Calendario_Academico_2018_1_Semestre.pdf")*/
             bot.sendFile(msg, "https://www2.fiap.com.br/Updown/upload_fiap/CalendarioEscolarGraduacao/Calendario_Academico_2018_1_Semestre.pdf", null, "TEST");    
         }  
         });
