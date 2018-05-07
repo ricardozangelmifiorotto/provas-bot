@@ -8,7 +8,7 @@ bot.on('ready', function() {
 
 bot.on('message', message => {
     if (message.content.startsWith("!provas")) {
-        message.channel.send("4 provas marcadas.", {files: ["https://i.imgur.com/BvJ0ss0.png"]})
+        message.channel.send("5 provas marcadas.", {files: ["https://i.imgur.com/Sm3dFtX.png"]})
         
     }  
     });
