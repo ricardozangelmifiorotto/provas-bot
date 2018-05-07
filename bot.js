@@ -55,7 +55,7 @@ bot.on('message', message => {
 bot.on('message', message => {
         if (message.content.startsWith("!ps")) {
                   message.channel.send("Essa as datas da ps.", {files: ["https://i.imgur.com/QWUDNx7.jpg"]})
-                  message.channel.send("", {files: ["https://i.imgur.com/kseGiVI.png"]})
+                  message.channel.send("", {files: ["https://i.imgur.com/aAyrPvS.jpg"]})
         }  
         });
         
